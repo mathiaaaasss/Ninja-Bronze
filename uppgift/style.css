@@ -1,0 +1,120 @@
+body {
+  background-color: #ffff;
+  background-image: linear-gradient(
+    to bottom,
+    #234B9A 0px,
+    #234B9A 120px,
+    #234B9A 50px,
+    #234B9A 70px,
+    #ffff 150px
+  );
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+header {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: cursive;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration:hsl(from color h s l);
+  background-color: #0a1f44;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav a:hover{
+    color: rgb(249, 249, 250);
+    box-shadow: 0 0 5px 0 rgb(184, 187, 26);
+}
+
+
+nav a:active{
+    color: rgb(251, 251, 247);
+    box-shadow: 0 0 5px 0 rgb(183, 172, 19);
+}
+
+h1 {
+    text-align: center;
+    color:#ffffff;
+}
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+}
+
+li img {
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+li {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#pokaler {
+    text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+
+main {
+  min-height: 85dvh;
+}
+
+footer {
+  background-color: #234B9A;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: #234B9A;
+}
+
+
+nav {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; 
+}
